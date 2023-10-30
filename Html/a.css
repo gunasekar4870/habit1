@@ -1,0 +1,108 @@
+/* Style for .navbar-brand (habit in green with black background) */
+/* Style for #navbar (black background) */
+#navbar {
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    padding:5rem 5rem;
+    box-shadow: 3px 3px 10px rgba(0,0,0,.3);
+    background-color: black; 
+  }
+   
+/* Style for .navbar-brand (habit in green) */
+.navbar-brand {
+    color: #29f700 !important;
+  }
+  
+  
+  #navbarSupportedContent a {
+    color: #29f700;
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  #navbarSupportedContent a:hover {
+    color: green;
+  }
+  #navbarSupportedContent button{
+    background:#29f700;
+    border-radius: 15px;
+  }
+  /* Center the content within a section */
+/* Center the content within the section */
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; /* Optional for centering text */
+  }
+#home{
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.4)),url(img.png);
+    background-size: cover;
+     background-position: center;
+     flex-direction: column;
+}
+#home h1{
+  font-size: 100px;
+  color: white;
+  text-shadow: 0px 1px 0px #ccc
+               0px 1px 0px #ccc
+               0px 1px 0px #ccc
+               0px 1px 0px #ccc
+               0px 1px 0px #ccc
+               0px 1px 0px #ccc
+               0px 1px 0px #ccc;
+
+}
+#home p{
+  font-size:18px;
+  color:#fff;
+}
+#home .input-group{
+  width:40%;
+  height:45%;
+}
+#home p{
+  font-size:18px;
+  color:#fff;
+}
+#home .input-group{
+   width: 40%;
+   height:45px;
+}
+.signin{
+   background :#29f700 !important;
+   color:white !important;
+   box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+
+#about {
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.4)), url(3.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+  }
+  
+  #about h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    color: white;
+    text-shadow: 0 1px 0 #ccc,
+                 0 1px 0 #ccc,
+                 0 1px 0 #ccc,
+                 0 1px 0 #ccc,
+                 0 1px 0 #ccc,
+                 0 1px 0 #ccc,
+                 0 1px 0 #ccc;
+  }
+  
+  #about p {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  #about .input-group {
+    width: 40%;
+    height: 45px;
+  }
+  

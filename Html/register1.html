@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WCT Midterm - PHO SOPHORS</title>
+  <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+
+  <!-- main all of content -->
+  <div class="main">
+    <!-- =================== register =================== -->
+    <div class="register">
+      <form action="login.html">
+        <div class="container">
+          <h1>Register</h1>
+          <hr>
+      
+          <label for="email"><b>Email *</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="psw"><b>Password *</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" min="5" max="10" required>
+      
+          <label for="fname"><b>Fullname *</b></label>
+          <input type="text" placeholder="Enter lastname fullname" name="fname" id="fname" required>
+
+          <label for="phone"><b>Phone *</b></label>
+          <input type="tel" placeholder="Enter Phone" name="phone" id="phone" required>
+
+          <button type="submit" onclick="register()" class="registerbtn">Register</button>
+          <button type="submit"  class="registerbtn">Login</button>
+        </div>
+        
+      </form>
+    </div>
+    <!-- =================== end register =================== -->
+  </div> <!-- End main all of content -->
+
+  <script src="/JS/main.js"></script>
+  

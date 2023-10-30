@@ -1,0 +1,49 @@
+
+/* Customize the navbar */
+#navbar {
+    background-color: #007BFF; /* Set the navbar background color to blue */
+}
+
+#navbar a {
+    color: white; /* Set the navbar link text color to white */
+}
+
+#navbar button {
+    background-color: transparent; /* Set the button background to transparent */
+    border: 1px solid white; /* Add a white border to the button */
+    color: white; /* Set the button text color to white */
+}
+
+#navbar button:hover {
+    background-color: white; /* Change the button background on hover to white */
+    color: #007BFF; /* Change the text color on hover to blue */
+}
+
+/* Customize the dashboard box */
+.dashboard-box {
+    background-color: #333; /* Set the dashboard box background color to dark gray */
+    color: white; /* Set the text color in the dashboard box to white */
+    border: 1px solid #007BFF; /* Add a blue border to the dashboard box */
+    padding: 20px; /* Add padding to the dashboard box */
+    margin: 20px auto; /* Center the dashboard box on the page */
+    max-width: 600px; /* Limit the maximum width of the dashboard box */
+}
+
+/* Customize the "Get Started" button */
+.signin {
+    background-color: #007BFF; /* Set the button background color to blue */
+    color: white; /* Set the button text color to white */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.signin:hover {
+    background-color: #0056b3; /* Change the button background on hover to a darker blue */
+}
+
+/* Center the "Get Started" button */
+.signin {
+    display: block;
+    margin: 0 auto;
+}

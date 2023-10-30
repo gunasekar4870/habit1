@@ -1,0 +1,179 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color and font styles to the body */
+  body {
+    font-family: "Quicksand", sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Style the header and navigation bar */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .navegador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navegador__marca {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navegador__contenedor__ul {
+    list-style: none;
+  }
+  
+  .navegador__contenedor__ul__li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .navegador__contenedor__ul__li__link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  .main {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Style form elements */
+  .form__accion__label,
+  .form__objetivo__p,
+  .form__colores__p {
+    font-weight: bold;
+  }
+  
+  .form__accion__input,
+  .form__objetivo__grid__col__input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form__objetivo__grid__col__select {
+    padding: 10px;
+  }
+  
+  .form__colores__previewColor--default {
+    width: 30px;
+    height: 30px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+  }
+  
+  .form__colores__setColores__color--verde {
+    background-color: #4CAF50;
+  }
+  
+  .form__colores__setColores__color--amarillo {
+    background-color: #FFC107;
+  }
+  
+  .form__colores__setColores__color--naranja {
+    background-color: #FF5722;
+  }
+  
+  .form__colores__setColores__color--rojo {
+    background-color: #F44336;
+  }
+  
+  .form__colores__setColores__color--celeste {
+    background-color: #03A9F4;
+  }
+  
+  .form__colores__setColores__color--azul {
+    background-color: #2196F3;
+  }
+  
+  .form__colores__setColores__color--violeta {
+    background-color: #9C27B0;
+  }
+  
+  .form__colores__setColores__color--rosa {
+    background-color: #E91E63;
+  }
+  
+  /* Style buttons */
+  .form__botones__guardar {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .form__botones__cancelar {
+    background-color: #ccc;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer__p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .footer__p__a {
+    text-decoration: none;
+    color: #fff;
+  }
+  /* Style for the video container */
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* Style for the arrow buttons */
+.arrow-button {
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0 20px;
+}
+

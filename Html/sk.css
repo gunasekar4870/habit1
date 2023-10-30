@@ -1,0 +1,60 @@
+/* Add styles for user profiles, images, likes, and comments */
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-info {
+    margin-left: 10px;
+}
+
+.post-image img {
+    max-width: 100%;
+}
+
+.post-interactions {
+    margin: 10px 0;
+}
+
+.like-button, .comment-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.likes {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.comments {
+    margin-bottom: 10px;
+}
+
+.comment {
+    margin-bottom: 5px;
+}
+
+.add-comment input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+}
+
+.post-comment-button {
+    background-color: #3897f0;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
